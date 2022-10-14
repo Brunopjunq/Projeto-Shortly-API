@@ -1,4 +1,4 @@
-import connection from "../database/db";
+import connection from "../database/db.js";
 import bcrypt from 'bcrypt';
 
 export async function postUser(req,res) {
